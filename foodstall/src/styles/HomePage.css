@@ -1,0 +1,59 @@
+.homepage {
+/* background-image: url('/images/bg.jpg'); */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+.owner-profile-pic {
+  width: 150px;        /* fixed width */
+  height: 150px;       /* fixed height */
+  object-fit: cover;   /* crop and fit nicely */
+  border-radius: 50%;  /* circular */
+  display: block;
+  margin: 0 auto 10px auto; /* center with spacing below */
+  border: 2px solid #ccc;   /* optional border */
+}
+
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: orange;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-btn:hover {
+  background: darkorange;
+}

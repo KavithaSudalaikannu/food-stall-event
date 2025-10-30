@@ -1,0 +1,22 @@
+header.header {
+  background-color: #ff5722;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header.header h1 {
+  font-size: 1.8rem;
+}
+
+header.header nav a {
+  color: white;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+header.header nav a:hover {
+  color: #ffd699;
+}

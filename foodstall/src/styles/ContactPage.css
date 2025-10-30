@@ -1,0 +1,88 @@
+/* Contact Page Styling without images */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background: #f8f0e3;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Left side - form */
+.contact-form {
+  flex: 1;
+  margin-right: 40px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.contact-form h2 {
+  margin-bottom: 15px;
+  color: #d35400;
+}
+
+.contact-form p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background: #d35400;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #e67e22;
+}
+
+/* Right side - owner cards */
+.contact-owners {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-owners h3 {
+  margin-bottom: 10px;
+  color: #d35400;
+}
+
+.owner-card {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.owner-icon {
+  font-size: 40px;
+  margin-right: 15px;
+}
